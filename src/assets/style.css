@@ -7,6 +7,7 @@
     --tinytext: #b3b3b3;
     --accent: #5c9c72;
     --accent2: #cc8645;
+    --accent3: #728a78;
     --shadows: #111;
     --screenwidth: ;
   }
@@ -118,6 +119,13 @@ h1 {
   margin: 15pt;
   }
   
+  table, th, td {
+    border: 1px solid var(--accent3);
+    padding: 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
+  }
+
   .subbox {
     display: flex;
     justify-content: center;

@@ -72,6 +72,18 @@ Once you have signed up for Neocities, you can navegate to the [dashboard](https
 
 Your website will have different files because by default it will only have a HTML and CSS file. From there, you can upload files or click on files to edit them, which will be needed for the next section on HTML.
 
+## Limitations of Neocities
+
+Neocities won't let you:
+
+* Post illegal content (Piracy, Drug dealing, etc.)
+* Upload audio or video files (Use YouTube or [Catbox](https://catbox.moe))
+* Upload executable files (.exe, .dmg, .sh, etc.)
+* Upload compressed files (.zip, .rar, .7z, .tar.gz, etc.)
+* Hotlink files
+
+Learn more at https://neocities.org/site_files/allowed_types.
+
 ---
 
 # HTML
@@ -88,15 +100,21 @@ Then from there you should be on a screen with some HTML code, let me explain al
 
 HTML uses these things called tags, a piece of information has a opening tag and a closing tag. Here is an example:
 
-<pre><code class="language-html">&lt;h1>My awesome title!&lt;/h1></code></pre>
+``` html
+<h1>My awesome title!</h1>
+```
 
 The major difference between a closing tag and an opening tag is a closign tag has a slash at the start like this:
 
-<pre><code class="language-html">&lt;/tag-here></code></pre>
+``` html
+</tag-here>
+```
 
 You can also define information such as where a link will go by putting the following in a tag:
 
-<pre><code class="language-html">&lt;a href="https://www.wikipedia.org/">Link to Wikipedia&lt;/a></code></pre>
+``` html
+<a href="https://www.wikipedia.org/">Link to Wikipedia</a>
+```
 
 * `href="URL-HERE"` is where an `<a>` tag will take you.
 * `src="FILE-HERE"` is where you can use a separate file to define information, such as an image file.
@@ -105,15 +123,17 @@ You can also define information such as where a link will go by putting the foll
 
 To start, Neocities will provide you with some basic HTML code to start, for this tutorial I don't really want to work off that since I want to show what every tag does. Here is a basic HTML document with no code, I will explain what everything in it does.
 
-<pre><code class="language-html">&lt;!DOCTYPE html>
-&lt;html lang="en">
-&lt;head>
-    &lt;title>Document&lt;/title>
-&lt;/head>
-&lt;body>
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
     CONTENT HERE
-&lt;/body>
-&lt;/html></code></pre>
+</body>
+</html>
+```
 
 1. `<!DOCTYPE>` determines what markup language we're using, in this case we're using HTML
 2. `<html lang="en">` shows the start of the HTML content and defines what spoken language is used, English is chosen if nothing is there.
@@ -123,13 +143,28 @@ To start, Neocities will provide you with some basic HTML code to start, for thi
 
 Now in the body of the page, let's a header so people know what this website is about:
 
-<pre><code class="language-html">&lt;h1>Welcome to Neotutor!&lt;/h1></code></pre>
+``` html
+<h1>Welcome to Neotutor!</h1>
+```
 
 Below that, maybe explain what your website will be about with the paragraph tag:
 
-<pre><code class="language-html">&lt;p>Hey! Welcome to my awesome website where I talk about things.&lt;/p></code></pre>
+``` html
+<p>Hey! Welcome to my awesome website where I talk about things.</p>
+```
 
-This section is not done.
+## HTML Tag List
+
+| Tag | Use | Example |
+|-|-|-|
+| <pre><code class="language-html">&lt;h1></code></pre> | Big header | <pre><code class="language-html">&lt;h1>Welcome to Neotutor!&lt;/h1></code></pre> |
+| <pre><code class="language-html">&lt;h2></code></pre> | Smaller header | <pre><code class="language-html">&lt;h2>What will I cover here?&lt;/h2></code></pre> |
+| <pre><code class="language-html">&lt;h2></code></pre> | Even smaller header | <pre><code class="language-html">&lt;h3>Table of Contents!&lt;/h3></code></pre> |
+| <pre><code class="language-html">&lt;p></code></pre> | Paragraph/Text | <pre><code class="language-html">&lt;p>Today we'r going to talk about the state of the internet.&lt;/p></code></pre> |
+| <pre><code class="language-html">&lt;a></code></pre> | Paragraph/Text | <pre><code class="language-html">&lt;a href="URL-HERE">My Blusky page.&lt;/a></code></pre> |
+| <pre><code class="language-html">&lt;img></code></pre> | Image | <pre><code class="language-html">&lt;img src="images/elgato.png"></code></pre> |
+
+Please know this is not a full list of tags.
 
 ---
 
