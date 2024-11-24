@@ -15,14 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    # Set up any tools and build steps here
-    # This example uses a Node.js toolchain to build a site
+    - uses: actions/checkout@v3
+    # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v3
+      uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
-        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false
-        neocities_supporter: false # set this to true if you have a supporter account and want to bypass unsupported files filter.
-        preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: true
         dist_dir: public
