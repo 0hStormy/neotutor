@@ -12,7 +12,7 @@ Here are some reason on why you might want to have your own webpage:
 
 * Put it in your social media profile so people can get to know you better
 * Write about your life
-* Show of photos you've taken
+* Show off photos you've taken
 * Show off art you made
 * Sell commissions
 * Show off music you've made
