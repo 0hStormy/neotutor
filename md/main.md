@@ -55,3 +55,5 @@ CSS is like the paint job it's used to style all the different parts of your web
 Javascript is used to make your website more interactive by adding code. Some examples would be making a sound play when you click a button or making a simple game on your website.
 
 ---
+
+*Made with <3 by Stormy, source code [here](https://github.com/0hStormy/neotutor).*
