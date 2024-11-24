@@ -56,4 +56,24 @@ JavaScript is used to make your website more interactive by adding code. Some ex
 
 ---
 
+# Setup
+
+Let's setup our workspace for making a website. In this guide we will be using a free website hosting service called [Neocities](https://neocities.org). They make setting up a website a lot easier while still allowing you to program in regular web development languages (HTML, CSS, and JS)
+
+First, you will need to sign up for a Neocities account, which you can do on their [homepage](https://neocities.org).
+
+![Signup Page](assets/images/signup.png)
+
+Once you have signed up for Neocities, you can navegate to the [dashboard](https://neocities.org/dashboard) by clicking on your name in the topbar and then clicking edit. You should now be in your dashboard, it should look something like this:
+
+![Signup Page](assets/images/dashboard.png)
+
+Your website will have different files because by default it will only have a HTML and CSS file. From there, you can upload files or click on files to edit them, which will be needed for the next section on HTML.
+
+---
+
+Blinkie to use on your website:
+
+<img src="assets/images/blinkie.png" class="icon">
+
 *Made with <3 by Stormy, source code [here](https://github.com/0hStormy/neotutor).*
