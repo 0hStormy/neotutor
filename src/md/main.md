@@ -28,6 +28,7 @@ Not really, as long as you can understand the basics of logic and design, you sh
 Now that you've determined you have reasoning and the time to make a website, let's get started!
 
 1. [How do Websites work?](#how-do-websites-work)
+2. [Setup](#setup)
 
 ---
 
