@@ -29,6 +29,7 @@ Now that you've determined you have reasoning and the time to make a website, le
 
 1. [How do Websites work?](#how-do-websites-work)
 2. [Setup](#setup)
+3. [HTML](#html)
 
 ---
 
@@ -67,9 +68,68 @@ First, you will need to sign up for a Neocities account, which you can do on the
 
 Once you have signed up for Neocities, you can navegate to the [dashboard](https://neocities.org/dashboard) by clicking on your name in the topbar and then clicking edit. You should now be in your dashboard, it should look something like this:
 
-![Signup Page](assets/images/dashboard.png)
+![Dashboard](assets/images/dashboard.png)
 
 Your website will have different files because by default it will only have a HTML and CSS file. From there, you can upload files or click on files to edit them, which will be needed for the next section on HTML.
+
+---
+
+# HTML
+
+Now that you have setup your neocities account, you can now start programming in HTML!
+
+First, you're going to need to go to your Neocities [dashboard](https://neocities.org/dashboard) by clicking on your name in the topbar and then clicking edit. Then you should see an `index.html`, that HTML file is your homepage of sorts, hover or it and press edit.
+
+![Click on HTML](assets/images/html.png)
+
+Then from there you should be on a screen with some HTML code, let me explain all of it real quick before you start changing things.
+
+## How does HTML work?
+
+HTML uses these things called tags, a piece of information has a opening tag and a closing tag. Here is an example:
+
+<pre><code class="language-html">&lt;h1>My awesome title!&lt;/h1></code></pre>
+
+The major difference between a closing tag and an opening tag is a closign tag has a slash at the start like this:
+
+<pre><code class="language-html">&lt;/tag-here></code></pre>
+
+You can also define information such as where a link will go by putting the following in a tag:
+
+<pre><code class="language-html">&lt;a href="https://www.wikipedia.org/">Link to Wikipedia&lt;/a></code></pre>
+
+* `href="URL-HERE"` is where an `<a>` tag will take you.
+* `src="FILE-HERE"` is where you can use a separate file to define information, such as an image file.
+
+## Let's start coding!
+
+To start, Neocities will provide you with some basic HTML code to start, for this tutorial I don't really want to work off that since I want to show what every tag does. Here is a basic HTML document with no code, I will explain what everything in it does.
+
+<pre><code class="language-html">&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+    &lt;title>Document&lt;/title>
+&lt;/head>
+&lt;body>
+    CONTENT HERE
+&lt;/body>
+&lt;/html></code></pre>
+
+1. `<!DOCTYPE>` determines what markup language we're using, in this case we're using HTML
+2. `<html lang="en">` shows the start of the HTML content and defines what spoken language is used, English is chosen if nothing is there.
+3. `<head>` is where extra content needed content is put where it can't be seen by the user directly on the webpage
+4. `<title>` defines the title shown on a browser tab
+5. `<body>` is where all the main content seen by user will be defined
+
+Now in the body of the page, let's a header so people know what this website is about:
+
+<pre><code class="language-html">&lt;h1>Welcome to Neotutor!&lt;/h1></code></pre>
+
+Below that, maybe explain what your website will be about with the paragraph tag:
+
+<pre><code class="language-html">&lt;p>Hey! Welcome to my awesome website where I talk about things.&lt;/p></code></pre>
+
+This section is not done.
 
 ---
 
